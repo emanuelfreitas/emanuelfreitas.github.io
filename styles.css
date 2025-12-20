@@ -329,6 +329,18 @@ body {
     box-shadow: 0 8px 20px rgba(102, 126, 234, 0.3);
 }
 
+.secondary-link {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: var(--text-primary);
+}
+
+.secondary-link:hover {
+    background: rgba(255, 255, 255, 0.1);
+    border-color: rgba(255, 255, 255, 0.2);
+    transform: translateY(-2px);
+}
+
 /* Coming Soon Card */
 .coming-soon {
     display: flex;
